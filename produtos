@@ -64,6 +64,7 @@
 
     </header>
 
+        
 
       <div class="container">
 
@@ -97,8 +98,8 @@
                     </div><!-- ROW-->
                 </div>
             </section>    
-    
-           
+
+            
     
            
     
@@ -135,57 +136,34 @@
                 </div>
             </section>    
 
-            <section>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic2" data-slide-to="1" class="active"></li> 
-                </ol>
-    
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <div class="banner" style="background-color: #f5f5f5;"></div>
-                        <div class="carousel-caption">
-                            <h2 class="animated bounceInRight" style="animation-delay: 1s"> Aproveite nossa <span> promoção </span></h2>
-                            <h3 class="animated bounceInLeft" style="animation-delay: 2s"> Pizza de base de camote sin gluten + Suco de Goiaba por apenas <span style="color: black;">R$ 35,00</span> </h3>
-                            <p class="animated zoomIn" style="animation-delay: 3s"><a href="#"> Peça agora! </a></p> 
-                        </div>
-                    </div>
-                
-                </div>
-            </section>
+         
     
             <section id="produtos">
                 <div class="small-container">
                     <div class="textprodutos">
-                        <h2 style="color: #bacc65; text-transform: capitalize;" >Comidas</h2>
+                        <h2>Sucos</h2>
                     </div>
                     
-                    <P style="color: white;">Confira nosso prato do dia</P>
                     <div class="row"><!-- ROW-->
                         <div class="col-4">
-                            <img src="imagens/prato1.jpg" alt="">
-                            <h4 style="font-weight: bolder;">Tofupiry</h4>  
-                            <p>R<i class="fas fa-dollar-sign"></i> 24,99</p>
-                            <button class="btn "><a class="contribuir" href="produtosdetais.html">Compre agora</a>
-                            </button>
+                            <img src="imagens/suco1.jpg" alt="">
+                            <h4 style="font-weight: bolder;"> Suco de Laranja </h4>  
+                            <p>R$ 24,99</p>
+                            <a class="hvr-float-shadow" href="produtosdetais.html">Compre agora</a>
                         </div>
         
                         <div class="col-4">
-                            <img src="imagens/prato2.jpg" alt="">
-                            <h4 style="font-weight: bolder;"> Crepioca de coco e chia</h4>
-                            <p>R<i class="fas fa-dollar-sign"></i> 24,99</p>
-                            <button class="btn"><a class="contribuir" href="produtosdetais.html">Compre agora</a>
-                            </button>
+                            <img src="imagens/suco2.jpg" alt="">
+                            <h4 style="font-weight: bolder;"> Suco de Limão</h4>
+                            <p>R$ 24,99</p>
+                            <a class="hvr-float-shadow" href="produtosdetais.html">Compre agora</a>
                         </div>
         
                         <div class="col-4">
-                            <img src="imagens/prato3.jpg" alt="">
-                            <h4 style="font-weight: bolder;">Crepioca de beterraba e abobrinha </h4>
-                            <p>R<i class="fas fa-dollar-sign"></i> 24,99</p>
-                            <button class="btn"><a class="contribuir" href="produtosdetais.html">Compre agora</a>
-                            </button>
+                            <img src="imagens/suco3.jpg" alt="">
+                            <h4 style="font-weight: bolder;"> Healthy Homemade Strawberry Lemonade - Gesunde </h4>
+                            <p>R$ 24,99</p>
+                            <a class="hvr-float-shadow" href="produtosdetais.html">Compre agora</a>
                         </div>  
                     </div><!-- ROW-->
                 </div>
