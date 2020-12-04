@@ -93,11 +93,24 @@ p {
 .col-md-6 .text h1 {
     color: var(--cor);
     font-size: 45px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
+.hvr-float-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+
 .textprodutos {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
    
 }
 
@@ -105,6 +118,7 @@ p {
     font-family: 'Pacifico', cursive;
     font-size: 100px;
     color: var(--cor);
+    text-shadow: 2px 2px black;
 }
 
 
@@ -160,8 +174,6 @@ p {
     border-radius: 30px;
     transition: background 0.5s;
 }
-
-
 
 .btn:hover {
     background: black;
@@ -465,6 +477,223 @@ p {
     float: right;
     text-align: left; 
 }
+
+/* funcionario */ 
+
+
+header .carousel-inner .item {
+	height: 100vh;
+}
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	padding: 4  0px 15px;
+	font-weight: 900;
+}
+.nav.navbar-nav.navbar-right {
+	margin: 25px 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	text-transform: uppercase;
+}
+.banner {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.carousel-caption {
+	padding-bottom: 250px;
+	font-family: poppins;
+}
+.carousel-caption h2 {
+	font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.carousel-caption h2 span {
+	color: #EDBB00;
+}
+
+.carousel-caption h4 {
+    color: black;
+    font-size: 70px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.p123 {
+    color: black;
+}
+
+#trabalheconosco {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#trabalheconosco button {
+    border: 1px solid #004c68;
+    min-width: 260px;
+    width: auto;
+    padding: 10px 15px;
+    background: none;
+}
+
+#trabalheconosco button h1 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: #004c68;
+}
+
+#trabalheconosco p {
+    
+    padding-top: 30px;
+    line-height: 24px;
+    color: #4A4A49;
+}
+
+.wrapper {
+    width: 450px;
+    background: #fff;
+    padding: 30px;
+    
+    
+}
+
+.wrapper .input-data {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
+}
+
+.input-data input:focus ~ label,
+.input-data input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #004c68;
+}
+
+
+.wrapper .input-data label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #004c68;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.wrapper .input-data .underline {
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+}
+
+.input-data .underline:before {
+    position: absolute;
+    background: #004c68;
+    content: "";
+    height: 100%;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+    transform: scaleX(1);
+} 
+
+
+
+.banner2 {
+    padding-top: 20px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.carousel-caption a {
+	background: #EDBB00;
+	padding: 15px 35px;
+	display: inline-block;
+	margin-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 25px;
+}
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-indicators .active {
+	background-color: #EDBB00;
+	border-color: #EDBB00;
+}
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.carousel-caption {
+		padding-bottom: 350px;
+	}
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	.carousel-caption h2 {
+		font-size: 25px;
+	}
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}
+
 
 /* cozinha */
 .services{
